@@ -13,5 +13,4 @@ class EggsTest {
         assertEquals("Nyunyi", rabbit.getName());
         assertEquals(32, rabbit.getEggs());
     }
-
 }

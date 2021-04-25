@@ -1,5 +1,11 @@
 package hu.nive.ujratervezes.kepesitovizsga.architect;
 
-public class Plan {
+public interface Plan {
+
+    String getProjectName();
+
+    int calculateSquareMeter();
+
+    PlanType getType();
 
 }
